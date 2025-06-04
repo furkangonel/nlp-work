@@ -8,7 +8,11 @@ import pandas as pd
 
 
 # veri setini yukle 
-data = pd.read_csv("/Users/furkangonel/Desktop/spyder-py3/BTK_NLP/basic_nlp_process/spam.csv", encoding = "latin-1")
+
+"""
+csv dosya yolunun güncellenmesi gerekebilir
+"""
+data = pd.read_csv("/basic_nlp_process/spam.csv", encoding = "latin-1")
 data.drop(['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4'], axis=1, inplace = True)
 data.columns = ['label', 'text']
 

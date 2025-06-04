@@ -22,7 +22,10 @@ nltk.download("own-1.4")
 
 
 # veri seti yükle
-df = pd.read_csv('/Users/furkangonel/.spyder-py3/BTK_NLP/basic_nlp_process/duygu_analizi_amazon_veri_seti.csv')
+"""
+csv dosya yolunun güncellenmesi gerekebilir
+"""
+df = pd.read_csv('/basic_nlp_process/duygu_analizi_amazon_veri_seti.csv')
 
 
 # text cleaning & preprocessing

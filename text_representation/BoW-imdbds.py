@@ -7,7 +7,10 @@ import nltk
 from nltk.corpus import stopwords
 
 # veri setini içe aktar 
-df = pd.read_csv('/Users/furkangonel/Desktop/spyder-py3/BTK_NLP/metin_temsili/IMDB Dataset.csv')
+"""
+csv dosya yolunun güncellenmesi gerekebilir
+"""
+df = pd.read_csv('/metin_temsili/IMDB Dataset.csv')
 
 
 # metin verilerini alalım

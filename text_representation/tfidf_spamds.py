@@ -8,7 +8,10 @@ from nltk.corpus import stopwords
 
 
 # veri seti yükle
-df = pd.read_csv('/Users/furkangonel/Desktop/spyder-py3/BTK_NLP/spam.csv', encoding='ISO-8859-1')
+"""
+csv dosya yolunun güncellenmesi gerekebilir
+"""
+df = pd.read_csv('/spam.csv', encoding='ISO-8859-1')
 
 
 # metin verilerini alalım
